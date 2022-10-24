@@ -11,7 +11,7 @@ def listaTotal():
     lst=[]
     while(positive_infnity>0):
         try:
-            num= int(input("Dime un número: "))
+            num= float(input("Dime un número: "))
             if(num>=0):
                lst.append(num)
             else:
